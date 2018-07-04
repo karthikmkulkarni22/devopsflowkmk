@@ -19,7 +19,7 @@ public class test2 {
 		driver.findElement(By.name("commit")).click();
 		
 		String title = driver.getTitle();//to check the the title of the page for validations
-		Assert.assertEquals(title, "Sign in to GitHub · GitHub");//for validations, if it is false or expected !=actual, testing shouldnt continue or should throw an error
+		Assert.assertEquals(title, "Sign in to GitHub . GitHub");//for validations, if it is false or expected !=actual, testing shouldnt continue or should throw an error
 		System.out.println("continue with testing....");
 		System.out.println("NO");
 	}
